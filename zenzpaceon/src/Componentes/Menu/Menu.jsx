@@ -2,10 +2,10 @@ import React from 'react'
 import {Link, Switch, Route} from 'react-router-dom'
 import Home from '../Home/Home'
 import Perfil from '../Perfil/Perfil'
-import Sobre from '../Sobre/Sobre'
+import Sobre from '../Sobre/SaibaMais'
 import Pesquisa from '../Pesquisa/Pesquisa'
 import Agendamento from '../Agendamento/Agendamento'
-import Assinatura from '../Assinatura/Assinatura'
+import Assinatura from '../Assinatura/AssinaturaPlano'
 
 export default function Menu() {
     return (
@@ -15,34 +15,34 @@ export default function Menu() {
 
                 <nav>
                     <ul>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Pesquisa</a></li>
-                        <li><a href="">Perfil</a></li>
-                        <li><a href="">Assinatura</a></li>
+                        <li><Link to="/sobre">Sobre</Link></li>
+                        <li><Link to="/pesquesa">Pesquisar</Link></li>
+                        <li><Link to="/perfil">Perfil</Link></li>
+                        <li><Link to="/assinatura">Assinatura</Link></li>
                     </ul>
                 </nav>
                 <section>
                     <Switch>
 
-                        <Router path="/">
+                        <Route path="/">
                             <Home />
-                        </Router>
+                        </Route>
 
-                        <Router path="/sobre">
+                        <Route path="/sobre">
                             <Sobre />
-                        </Router>
+                        </Route>
 
-                        <Router path="/pesquisa">
+                        <Route path="/pesquisa">
                             <Pesquisa />
-                        </Router>
+                        </Route>
 
-                        <Router path="/perfil">
+                        <Route path="/perfil">
                             <Perfil />
-                        </Router>
+                        </Route>
 
-                        <Router path="/assinatura">
+                        <Route path="/assinatura">
                             <Assinatura />
-                        </Router>
+                        </Route>
 
                     </Switch>
                     
