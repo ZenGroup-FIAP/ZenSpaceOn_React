@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from './Componentes/Menu/menu'
+import Menu from './Componentes/Menu/Menu'
 import Rodape from './Componentes/Rodape/Rodape'
 
 export default function App() {
