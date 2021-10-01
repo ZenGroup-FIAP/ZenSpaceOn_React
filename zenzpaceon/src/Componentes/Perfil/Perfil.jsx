@@ -1,4 +1,6 @@
 import React from 'react'
+import AssinaturaAtalio from './AssinaturaAtalio.jsx'
+import Agendamento from '../Agendamento/Agendamento.jsx'
 
 export default function Perfil() {
     return (
@@ -18,6 +20,9 @@ export default function Perfil() {
                 <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa voluptates quasi ea eligendi inventore ex, ratione quis quas cumque mollitia, totam ipsa consequatur asperiores, assumenda error excepturi doloribus voluptate! consectetur adipisicing elit. Eaque molestiae eius et labore explicabo necessitatibus corrupti asperiores ipsum nobis ullam deleniti vitae aliquid nisi, obcaecati ratione? Debitis, maiores! Illum, quis?</p>
                 <a href="#">editar perfil</a>
             </div> 
+
+            <AssinaturaAtalio />
+
         </div>
     )
 }
