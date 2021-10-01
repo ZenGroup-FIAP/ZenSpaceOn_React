@@ -1,5 +1,5 @@
 import React from 'react'
-import Introducao from '.Introducao.jsx'
+import Introducao from './Introducao'
 import Autores from './Autores.jsx'
 import Agendamento from '../Agendamento/Agendamento.jsx'
 
