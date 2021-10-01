@@ -1,4 +1,5 @@
 import React from 'react'
+import DraCristina from '../img/pessoas/doc-1.jpg'
 
 export default function Pesquisa() {
     return (
@@ -35,7 +36,7 @@ export default function Pesquisa() {
             <div>
                 <h2>Resultado da busca</h2>
                 <div>
-                    <img src="../img/pessoas/doc-1.jpg" alt="pessoa1"/>
+                    <img src={DraCristina} alt="pessoa1"/>
                 </div>
                 <div>
                     <h4>Dra.Cristina</h4>
@@ -47,7 +48,7 @@ export default function Pesquisa() {
 
             <div>
                 <div>
-                    <img src="../img/pessoas/doc-1.jpg" alt="pessoa1"/>
+                    <img src={DraCristina} alt="pessoa1"/>
                 </div>
                 <div>
                     <h4>Dra.Cristina</h4>
@@ -59,7 +60,7 @@ export default function Pesquisa() {
 
             <div>
                 <div>
-                    <img src="" alt="pessoa1"/>
+                    <img src={DraCristina} alt="pessoa1"/>
                 </div>
                 <div>
                     <h4>Dra.Cristina</h4>
@@ -71,7 +72,7 @@ export default function Pesquisa() {
 
             <div>
                 <div>
-                    <img src="" alt="pessoa1"/>
+                    <img src={DraCristina} alt="pessoa1"/>
                 </div>
                 <div>
                     <h4>Dra.Cristina</h4>

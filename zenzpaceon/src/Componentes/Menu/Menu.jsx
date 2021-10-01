@@ -6,12 +6,13 @@ import Sobre from '../Sobre/SaibaMais'
 import Pesquisa from '../Pesquisa/Pesquisa'
 import Agendamento from '../Agendamento/Agendamento'
 import Assinatura from '../Assinatura/AssinaturaPlano'
+import Logo from '../img/zenspace-logo.png'
 
 export default function Menu() {
     return (
         <header>
             <div>
-                <a href=""><img src="" alt="Logo ZenSpace ON"/></a>
+                <Link to="/home"><img src={Logo} alt="Logo ZenSpace ON"/></Link>
 
                 <nav>
                     <ul>
@@ -24,9 +25,7 @@ export default function Menu() {
                 <section>
                     <Switch>
 
-                        <Route path="/">
-                            <Home />
-                        </Route>
+                        
 
                         <Route path="/sobre">
                             <Sobre />
@@ -43,10 +42,15 @@ export default function Menu() {
                         <Route path="/assinatura">
                             <Assinatura />
                         </Route>
+                        
+                        <Route path="/">
+                            <Home />
+                        </Route>
 
                     </Switch>
                     
                 </section>
+                
             </div>
         </header>
     )

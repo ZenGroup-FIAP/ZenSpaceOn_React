@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../img/zenspace-logo-2.png'
 
 export default function SaibaMais() {
     return (
@@ -11,7 +12,7 @@ export default function SaibaMais() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eaque distinctio delectus labore vitae vero ullam ducimus in tempora. Excepturi quaerat iusto tempore voluptatibus. Pariatur soluta veniam delectus eum voluptatibus.</p>
                 </div>
                 <div>
-                    <img src="" alt="logo-2"/>
+                    <img src={Logo} alt="logo-2"/>
                 </div>
             </div>
         </div>
