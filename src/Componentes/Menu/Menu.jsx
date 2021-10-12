@@ -7,13 +7,13 @@ import Pesquisa from '../Pesquisa/Pesquisa'
 import Agendamento from '../Agendamento/Agendamento'
 import Assinatura from '../Assinatura/AssinaturaPlano'
 import Logo from '../img/zenspace-logo.png'
+import { HeaderStyled } from '../../styled.js'
 
 export default function Menu() {
     return (
-        <header>
-            <div>
+        <>
+        <HeaderStyled>
                 <Link to="/home"><img src={Logo} alt="Logo ZenSpace ON"/></Link>
-
                 <nav>
                     <ul>
                         <li><Link to="/sobre">Sobre</Link></li>
@@ -22,6 +22,7 @@ export default function Menu() {
                         <li><Link to="/assinatura">Assinatura</Link></li>
                     </ul>
                 </nav>
+            </HeaderStyled>
                 <section>
                     <Switch>
 
@@ -50,8 +51,6 @@ export default function Menu() {
                     </Switch>
                     
                 </section>
-                
-            </div>
-        </header>
+            </>
     )
 }
