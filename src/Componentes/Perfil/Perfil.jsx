@@ -1,12 +1,13 @@
 import React from 'react'
 import AssinaturaAtalio from '../Assinatura/AssinaturaAtalio'
 import Agendamento from '../Agendamento/Agendamento.jsx'
+import FotoPerfil from '../img/pessoas/foto-perfil.jpg'
 
 export default function Perfil() {
     return (
         <div>
             <div>
-                <img src="" alt="foto de perfil"/>
+                <img src={FotoPerfil} alt="foto de perfil"/>
                 <div>
                     <h1>Nome Exemplo</h1>
                     <p>25 anos</p>
