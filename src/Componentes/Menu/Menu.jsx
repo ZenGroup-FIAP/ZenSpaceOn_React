@@ -45,7 +45,7 @@ export default function Menu() {
                         <li><Link to="/assinatura">Assinatura</Link></li>
                     </ul>
                 </nav>
-            </HeaderStyled>
+        </HeaderStyled>
                 <section>
                     <Switch>
 
