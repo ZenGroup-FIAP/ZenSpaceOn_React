@@ -39,10 +39,10 @@ export default function Menu() {
                 <ButtonHeaderStyle className={toggle} onClick={() => switchToggle()}>Menu</ButtonHeaderStyle>
                 <nav className={menuResponsive}>
                     <ul>
-                        <li><Link to="/sobre">Sobre</Link></li>
-                        <li><Link to="/pesquisa">Pesquisar</Link></li>
-                        <li><Link to="/perfil">Perfil</Link></li>
-                        <li><Link to="/assinatura">Assinatura</Link></li>
+                        <li><Link to="/sobre" onClick={() => switchToggle()}>Sobre</Link></li>
+                        <li><Link to="/pesquisa" onClick={() => switchToggle()}>Pesquisar</Link></li>
+                        <li><Link to="/perfil" onClick={() => switchToggle()}>Perfil</Link></li>
+                        <li><Link to="/assinatura" onClick={() => switchToggle()}>Assinatura</Link></li>
                     </ul>
                 </nav>
             </HeaderStyled>
