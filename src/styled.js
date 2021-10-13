@@ -42,7 +42,7 @@ export const HeaderStyled = styled.header`
         display: none;
     }
 
-    @media only screen and (max-width: 580px) {
+    @media only screen and (max-width: 660px) {
         flex-wrap: wrap;
         flex-direction: column;
 
@@ -97,6 +97,7 @@ export const ButtonHeaderStyle = styled.button`
     border-radius: 7px;
 ` 
 
+<<<<<<< HEAD
 export const SectionPerfil = styled.section`
     margin-top: 92px;
     color: #484B4D;
@@ -164,3 +165,132 @@ export const ConteinerBio = styled.div`
 `
 
 
+=======
+export const PesquisaStyled = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        color: #484b4d;
+    }
+
+    @media only screen and (max-width: 850px) {
+        h1 {
+            font-size: 16px;
+        }
+    }
+`
+
+export const FormularioPesquisa = styled.form`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #busca {
+        width: 40%;
+        font-size: 24px;
+        border: 1px solid #484b4d;
+        border-radius: none;
+        margin: 10px 0;
+    }
+
+    .filtros {
+        color: #484b4d;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtros .title-filtros {
+        font-size: 24px;
+    }
+
+    .filtros label {
+        font-size: 16px;
+    }
+
+    .filtros .campo {
+        display: flex;
+        margin: 10px 0px;
+        border: 1px solid #17d19c;
+        padding: 10px;
+    }
+
+    .filtros .campo select {
+        width: 45%;
+        margin: 0px 15px;
+        border: none;
+    }
+
+    .filtros .campo #ratingId {
+        margin: 0px 0px 0px 44px;
+    }
+
+    .filtros .buscar {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px;
+    } 
+
+    .filtros .buscar button {
+        color: #17d19c;
+        background-color: #fff;
+        border: 2px solid #17d19c;
+        font-size: 18px;
+        padding: 0px 15px;
+
+    }
+
+    @media only screen and (max-width: 850px) {
+        #busca {
+            width: 300px;
+        }
+    }
+`
+
+export const ResultadoPesquisa = styled.div`
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #17d19c;
+    margin: 10px 0px;
+
+    .dados-psicologo h4 {
+        margin: 0px 0px 40px 20px;
+        color: #484b4d;
+        font-weight: bold;
+    }
+
+    .dados-psicologo span {
+        margin: 0px 20px;
+    }
+
+    @media only screen and (max-width: 1310px) {
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+
+        .imagem-perfil {
+            display: flex;
+            justify-content: center;
+        }
+
+        .dados-psicologo h4 {
+            margin: 10px 0px;
+        }
+
+        .dados-psicologo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+`
+>>>>>>> main
