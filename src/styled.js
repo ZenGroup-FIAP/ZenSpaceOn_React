@@ -109,6 +109,12 @@ export const PesquisaStyled = styled.div`
         font-weight: bold;
         color: #484b4d;
     }
+
+    @media only screen and (max-width: 850px) {
+        h1 {
+            font-size: 16px;
+        }
+    }
 `
 
 export const FormularioPesquisa = styled.form`
@@ -170,5 +176,11 @@ export const FormularioPesquisa = styled.form`
         font-size: 18px;
         padding: 0px 15px;
 
+    }
+
+    @media only screen and (max-width: 850px) {
+        #busca {
+            width: 300px;
+        }
     }
 `
