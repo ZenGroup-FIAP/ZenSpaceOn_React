@@ -99,25 +99,23 @@ export const ButtonHeaderStyle = styled.button`
 
 
 export const SectionPerfil = styled.section`
-    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     color: #484B4D;
-    
-}
-
 `
 export const ConteinerPerfil =styled.div`
-    header: 636px;
-    width: 699px;
-    padding: 60px 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 `
 export const ConteinerUsuario =styled.div`
     display: flex;
-    flex-direction: row;
-
-    div{
-        padding-left:100px;
-    }
+    justify-content: space-between;
+    align-items: center;
 
     img {
         width: 220px;
@@ -136,10 +134,45 @@ export const ConteinerUsuario =styled.div`
         padding-top: 20px ;
         font-size: 24px;
     }
+
+    .dados-perfil {
+        margin: 0px 40px;
+    }
+
+    @media only screen and (max-width: 850px) {
+        flex-direction: column;
+        align-items: center;
+
+        .imagem-perfil {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 0px 20px 0px;
+        }
+
+        .dados-perfil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
 `
+
 export const ConteinerBio = styled.div`
-    padding: 0px;
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    margin: 40px 0px;
 
     h3{
         font-size: 36px;
@@ -161,6 +194,11 @@ export const ConteinerBio = styled.div`
         letter-spacing: .1em;
         border-radius: 12px;
         
+    }
+
+    @media only screen and (max-width: 850px) {
+        
+        width: 75%;
     }
 `
 

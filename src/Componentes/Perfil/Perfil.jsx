@@ -9,8 +9,10 @@ export default function Perfil() {
         <SectionPerfil>
             <ConteinerPerfil>    
                 <ConteinerUsuario>
-                    <img src={FotoPerfil} alt="foto de perfil"/>
-                    <div>
+                    <div className="imagem-perfil">
+                        <img src={FotoPerfil} alt="foto de perfil"/>
+                    </div>
+                    <div className="dados-perfil">
                         <h1>Nome Exemplo</h1>
                         <p>25 anos</p>
                         <p>+55 11 9999-9999</p>
