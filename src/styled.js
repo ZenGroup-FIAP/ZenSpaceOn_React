@@ -183,6 +183,13 @@ export const ConteinerBio = styled.div`
         font-size: 18px;
         padding-bottom: 30px;
     }
+
+    div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
     a {
         border: 3px solid #17d19c;
         padding: 10px 30px; 
@@ -193,6 +200,7 @@ export const ConteinerBio = styled.div`
         text-transform: uppercase;
         letter-spacing: .1em;
         border-radius: 12px;
+        
         
     }
 
