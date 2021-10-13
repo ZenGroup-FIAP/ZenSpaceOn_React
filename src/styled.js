@@ -101,8 +101,6 @@ export const ButtonHeaderStyle = styled.button`
 export const SectionPerfil = styled.section`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
     color: #484B4D;
 `
@@ -339,3 +337,16 @@ export const ResultadoPesquisa = styled.div`
         }
     }
 `
+export const SectionAgendamentoPerfil = styled.section`
+    display: flex;
+    flex-direction: column;
+    background-color: #17d19c;
+    justify-content: center;
+    align-items: center;
+
+    .boxfilho{
+        background-color: #fff;
+    }
+
+`
+
