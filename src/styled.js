@@ -184,3 +184,43 @@ export const FormularioPesquisa = styled.form`
         }
     }
 `
+
+export const ResultadoPesquisa = styled.div`
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #17d19c;
+    margin: 10px 0px;
+
+    .dados-psicologo h4 {
+        margin: 0px 0px 40px 20px;
+        color: #484b4d;
+        font-weight: bold;
+    }
+
+    .dados-psicologo span {
+        margin: 0px 20px;
+    }
+
+    @media only screen and (max-width: 1310px) {
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+
+        .imagem-perfil {
+            display: flex;
+            justify-content: center;
+        }
+
+        .dados-psicologo h4 {
+            margin: 10px 0px;
+        }
+
+        .dados-psicologo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+`

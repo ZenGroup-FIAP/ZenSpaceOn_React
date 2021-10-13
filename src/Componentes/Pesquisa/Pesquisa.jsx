@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormularioPesquisa, PesquisaStyled } from '../../styled'
+import { FormularioPesquisa, PesquisaStyled, ResultadoPesquisa } from '../../styled'
 import DraCristina from '../img/pessoas/doc-1.jpg'
 
 export default function Pesquisa() {
@@ -42,55 +42,56 @@ export default function Pesquisa() {
                 </div>
             </FormularioPesquisa>
 
-
-            <div>
+            <div className="resultado-title">
                 <h2>Resultado da busca</h2>
-                <div>
+            </div>
+            <ResultadoPesquisa>
+                <div className="imagem-perfil">
                     <img src={DraCristina} alt="pessoa1"/>
                 </div>
-                <div>
+                <div className="dados-psicologo">
                     <h4>Dra.Cristina</h4>
                     <span>Rating: 5.0</span>
                     <span>Disponibilidade: 8:00 às 16:00</span>
                     <span>Consultas: 540</span>
                 </div>
-            </div>
+            </ResultadoPesquisa>
 
-            <div>
-                <div>
+            <ResultadoPesquisa>
+                <div className="imagem-perfil">
                     <img src={DraCristina} alt="pessoa1"/>
                 </div>
-                <div>
+                <div className="dados-psicologo">
                     <h4>Dra.Cristina</h4>
                     <span>Rating: 5.0</span>
                     <span>Disponibilidade: 8:00 às 16:00</span>
                     <span>Consultas: 540</span>
                 </div>
-            </div>
+            </ResultadoPesquisa>
 
-            <div>
-                <div>
+            <ResultadoPesquisa>
+                <div className="imagem-perfil">
                     <img src={DraCristina} alt="pessoa1"/>
                 </div>
-                <div>
+                <div className="dados-psicologo">
                     <h4>Dra.Cristina</h4>
                     <span>Rating: 5.0</span>
                     <span>Disponibilidade: 8:00 às 16:00</span>
                     <span>Consultas: 540</span>
                 </div>
-            </div>
+            </ResultadoPesquisa>
 
-            <div>
-                <div>
+            <ResultadoPesquisa>
+                <div className="imagem-perfil">
                     <img src={DraCristina} alt="pessoa1"/>
                 </div>
-                <div>
+                <div className="dados-psicologo">
                     <h4>Dra.Cristina</h4>
                     <span>Rating: 5.0</span>
                     <span>Disponibilidade: 8:00 às 16:00</span>
                     <span>Consultas: 540</span>
                 </div>
-            </div>
+            </ResultadoPesquisa>
 
         </PesquisaStyled>
     )
