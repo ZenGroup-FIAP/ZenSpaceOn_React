@@ -96,3 +96,10 @@ export const ButtonHeaderStyle = styled.button`
     font-size: 24px;
     border-radius: 7px;
 ` 
+
+export const PesquisaStyled = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`

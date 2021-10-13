@@ -1,9 +1,10 @@
 import React from 'react'
+import { PesquisaStyled } from '../../styled'
 import DraCristina from '../img/pessoas/doc-1.jpg'
 
 export default function Pesquisa() {
     return (
-        <div>
+        <PesquisaStyled>
             <h1>Pesquise o melhor para você.</h1>
             <form action="#pesqusou">
                 <input id="busca" type="text"/>
@@ -88,6 +89,6 @@ export default function Pesquisa() {
                 </div>
             </div>
 
-        </div>
+        </PesquisaStyled>
     )
 }
