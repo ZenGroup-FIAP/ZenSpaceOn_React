@@ -47,7 +47,7 @@ export default function Menu() {
                         <li><Link to="/agendamento" onClick={() => switchToggle()}>Agendamento</Link></li>
                     </ul>
                 </nav>
-            </HeaderStyled>
+        </HeaderStyled>
                 <section>
                     <Switch>
 
