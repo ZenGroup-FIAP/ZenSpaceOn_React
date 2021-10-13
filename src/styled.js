@@ -42,7 +42,7 @@ export const HeaderStyled = styled.header`
         display: none;
     }
 
-    @media only screen and (max-width: 580px) {
+    @media only screen and (max-width: 660px) {
         flex-wrap: wrap;
         flex-direction: column;
 
