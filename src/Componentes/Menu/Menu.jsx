@@ -31,7 +31,7 @@ export default function Menu() {
                 <nav>
                     <ul>
                         <li><Link to="/sobre">Sobre</Link></li>
-                        <li><Link to="/pesquesa">Pesquisar</Link></li>
+                        <li><Link to="/pesquisa">Pesquisar</Link></li>
                         <li><Link to="/perfil">Perfil</Link></li>
                         <li><Link to="/assinatura">Assinatura</Link></li>
                     </ul>
@@ -40,7 +40,7 @@ export default function Menu() {
                 <nav className={menuResponsive}>
                     <ul>
                         <li><Link to="/sobre">Sobre</Link></li>
-                        <li><Link to="/pesquesa">Pesquisar</Link></li>
+                        <li><Link to="/pesquisa">Pesquisar</Link></li>
                         <li><Link to="/perfil">Perfil</Link></li>
                         <li><Link to="/assinatura">Assinatura</Link></li>
                     </ul>
