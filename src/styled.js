@@ -99,16 +99,31 @@ export const ButtonHeaderStyle = styled.button`
 
 
 export const SectionPerfil = styled.section`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 92px;
     color: #484B4D;
+
     
+
 }
 
 `
 export const ConteinerPerfil =styled.div`
+    display: flex;
+    flex-direction: column;
     header: 636px;
     width: 699px;
     padding: 60px 500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 850px){
+        flex-direction: column;
+    }
+    
     
 `
 export const ConteinerUsuario =styled.div`
@@ -138,6 +153,9 @@ export const ConteinerUsuario =styled.div`
     }
 `
 export const ConteinerBio = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 0px;
     margin-top: 40px;
 
@@ -150,6 +168,13 @@ export const ConteinerBio = styled.div`
         font-size: 18px;
         padding-bottom: 30px;
     }
+
+    div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
     a {
         border: 3px solid #17d19c;
         padding: 10px 30px; 
@@ -160,6 +185,7 @@ export const ConteinerBio = styled.div`
         text-transform: uppercase;
         letter-spacing: .1em;
         border-radius: 12px;
+        
         
     }
 `
