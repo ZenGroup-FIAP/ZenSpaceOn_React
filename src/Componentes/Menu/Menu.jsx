@@ -14,7 +14,7 @@ export default function Menu() {
     const [menuResponsive, setMenuResponsive] = useState("closed")
 
     const switchToggle = () => {
-        if (toggle == "off") {
+        if (toggle === "off") {
             setToggle("on")
             setMenuResponsive("open")
         } else {
