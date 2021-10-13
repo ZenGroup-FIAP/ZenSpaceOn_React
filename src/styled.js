@@ -100,39 +100,22 @@ export const ButtonHeaderStyle = styled.button`
 
 export const SectionPerfil = styled.section`
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 92px;
+    align-items: center;
+    margin-top: 20px;
     color: #484B4D;
-
-    
-
-}
-
 `
 export const ConteinerPerfil =styled.div`
     display: flex;
     flex-direction: column;
-    header: 636px;
-    width: 699px;
-    padding: 60px 500px;
-    margin: 0 auto;
-    justify-content: center;
     align-items: center;
-
-    @media only screen and (max-width: 850px){
-        flex-direction: column;
-    }
-    
     
 `
 export const ConteinerUsuario =styled.div`
     display: flex;
-    flex-direction: row;
-
-    div{
-        padding-left:100px;
-    }
+    justify-content: space-between;
+    align-items: center;
 
     img {
         width: 220px;
@@ -151,13 +134,45 @@ export const ConteinerUsuario =styled.div`
         padding-top: 20px ;
         font-size: 24px;
     }
+
+    .dados-perfil {
+        margin: 0px 40px;
+    }
+
+    @media only screen and (max-width: 850px) {
+        flex-direction: column;
+        align-items: center;
+
+        .imagem-perfil {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 0px 20px 0px;
+        }
+
+        .dados-perfil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
 `
+
 export const ConteinerBio = styled.div`
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 0px;
-    margin-top: 40px;
+    align-items: flex-start;
+    width: 40%;
+    margin: 40px 0px;
 
     h3{
         font-size: 36px;
@@ -187,6 +202,11 @@ export const ConteinerBio = styled.div`
         border-radius: 12px;
         
         
+    }
+
+    @media only screen and (max-width: 850px) {
+        
+        width: 75%;
     }
 `
 
