@@ -97,7 +97,7 @@ export const ButtonHeaderStyle = styled.button`
     border-radius: 7px;
 ` 
 
-<<<<<<< HEAD
+
 export const SectionPerfil = styled.section`
     margin-top: 92px;
     color: #484B4D;
@@ -165,7 +165,7 @@ export const ConteinerBio = styled.div`
 `
 
 
-=======
+
 export const PesquisaStyled = styled.div`
     display: flex;
     flex-direction: column;
@@ -293,4 +293,3 @@ export const ResultadoPesquisa = styled.div`
         }
     }
 `
->>>>>>> main
