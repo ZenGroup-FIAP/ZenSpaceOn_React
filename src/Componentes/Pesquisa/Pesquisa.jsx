@@ -1,26 +1,27 @@
 import React from 'react'
-import { PesquisaStyled } from '../../styled'
+import { FormularioPesquisa, PesquisaStyled } from '../../styled'
 import DraCristina from '../img/pessoas/doc-1.jpg'
 
 export default function Pesquisa() {
     return (
         <PesquisaStyled>
             <h1>Pesquise o melhor para você.</h1>
-            <form action="#pesqusou">
+            <FormularioPesquisa action="#pesqusou">
                 <input id="busca" type="text"/>
-                <div>
-                    <h4>Filtros</h4>
-                    <div>
+                <div className="filtros">
+                    <h4 className="title-filtros">Filtros</h4>
+                    <div className="campo">
                         <label for="rating">rating atual: </label>
                         <select name="rating" id="ratingId">
-                            <option value="5">5</option>
-                            <option value="4">4</option>
-                            <option value="3">3</option>
-                            <option value="2">2</option>
-                            <option value="1">1</option>
+                            <option value="5">5.0</option>
+                            <option value="4">4.0</option>
+                            <option value="3">3.0</option>
+                            <option value="2">2.0</option>
+                            <option value="1">1.0</option>
                         </select>
+
                     </div>
-                    <div>
+                    <div className="campo">
                         <label for="disponibilidade">disponibilidade: </label>
                         <select name="disponibilidade" id="disponibilidadeId">
                             <option value="total">Total</option>
@@ -28,16 +29,18 @@ export default function Pesquisa() {
                             <option value="finalDeSemana">Finais de semana</option>
                         </select>
                     </div>
-                    <div >
+                    <div className="campo">
                         <label for="numeroConsultas">consultas totais: </label>
                         <select name="numeroConsultas" id="numeroConsultasId">
                             <option>Acima de 200</option>
                             <option>100 consultas</option>
                         </select>
                     </div>
-                    <input type="submit" value="Buscar"/>
+                    <div className="buscar">
+                        <button type="submit">Buscar</button>
+                    </div>
                 </div>
-            </form>
+            </FormularioPesquisa>
 
 
             <div>
