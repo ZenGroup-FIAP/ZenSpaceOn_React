@@ -400,3 +400,44 @@ export const Titulo = styled.h1`
     color: #484B4D;
     font-weight: bold;
 `
+export const SubContainer = styled.div`
+    text-align: center;
+    margin-bottom: 40px;
+`
+
+export const OpiniaoBlock = styled.p`
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 250px;
+    font-style: italic;
+
+    @media only screen and (max-width: 920px) {
+        padding: 0 200px;
+    }
+
+    @media only screen and (max-width: 735px) {
+        padding: 0 100px;
+    }
+`
+
+export const OpiniaoCite = styled.cite`
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: normal;
+`
+
+export const Botao = styled.div`
+    width: 120px;
+    text-align: center;
+    border: 3px solid #17d19c;
+    padding: 10px 30px; 
+    color: #17d19c;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 12px;
+`

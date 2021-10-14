@@ -3,15 +3,18 @@ import { Link } from 'react-router-dom'
 import DrSergio from '../img/pessoas/doc-3.jpg'
 import DraCristina from '../img/pessoas/doc-1.jpg'
 import DraJulia from '../img/pessoas/doc-4.jpg'
+import { Botao, Container, SubContainer } from '../../styled.js'
 
 
 export default function Agendamento() {
     return (
         <div>
-            <div>
-                <p>Inicie sua experiência. Procure um profissional perfeito para você</p>
-                <Link to="../pesquisa/pesquisa.html">Pesquisa</Link>
-            </div>
+            <Container>
+                <SubContainer>
+                    <p>Inicie sua experiência. Procure um profissional perfeito para você</p>
+                    <Link to="/pesquisa"><Botao>Pesquisa</Botao></Link>
+                </SubContainer>
+            </Container>
             <div>
                 <h2>Suas próximas consultas</h2>
             </div>
