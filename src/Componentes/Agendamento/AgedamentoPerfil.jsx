@@ -10,17 +10,27 @@ export default function AgendamentoPerfil() {
             <SectionAgendamentoPerfil>
                 <h2>Agenda</h2>
                 <div className="boxfilho">
-                    <img src={doc3} alt="Dr Sergio"/>
-                    <p>24 de maio de 2021. 16:00h</p>
-                    <span>Dr. Sergio</span>
-                    <a href="null" class="btn">editar</a>
+                    <h3>Maio</h3>
+                    <div className="box">
+                        <img src={doc3} alt="Dr Sergio"/>
+                        <p>24 de maio de 2021. 16:00h</p>
+                        <span>Dr. Sergio</span>
+                        <div className="botao">
+                            <a href="null" class="btn">editar</a>
+                        </div>
+                    </div>    
                 </div>
         
+                
                 <div className="boxfilho">
-                    <img src={doc1} alt="Dr Sergio"/>
-                    <p>28 de maio de 2021. 16:00h</p>
-                    <span>Dra. Cristina</span>
-                    <a href="null" class="btn">editar</a>
+                    <div className="box">
+                        <img src={doc1} alt="Dr Sergio"/>
+                        <p>28   2021. 16:00h</p>
+                        <span>Dra. Cristina</span>
+                    </div>
+                    <div className="botao">
+                        <a href="null" class="btn">editar</a>
+                    </div>
                 </div>
         
                 <div className="boxfilho">
