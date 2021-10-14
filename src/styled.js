@@ -1,8 +1,10 @@
 import styled from 'styled-components';
+/*import HomeBg from '../Componentes/img/home-bg.jpg';*/
 
 export const GlobalStyles = styled.div`
     font-family: Arial, Helvetica, sans-serif;
 `
+/* Menu */
 
 export const HeaderStyled = styled.header`
     background-color: #17d19c;
@@ -88,7 +90,6 @@ export const HeaderStyled = styled.header`
 
     }
 `
-
 export const ButtonHeaderStyle = styled.button`
     background-color: #17d19c;
     color: #fff;
@@ -97,6 +98,7 @@ export const ButtonHeaderStyle = styled.button`
     border-radius: 7px;
 ` 
 
+/* Perfil */
 
 export const SectionPerfil = styled.section`
     display: flex;
@@ -164,7 +166,6 @@ export const ConteinerUsuario =styled.div`
         }
     }
 `
-
 export const ConteinerBio = styled.div`
     display: flex;
     flex-direction: column;
@@ -207,8 +208,20 @@ export const ConteinerBio = styled.div`
         width: 75%;
     }
 `
+export const SectionAgendamentoPerfil = styled.section`
+    display: flex;
+    flex-direction: column;
+    background-color: #17d19c;
+    justify-content: center;
+    align-items: center;
 
+    .boxfilho{
+        background-color: #fff;
+    }
 
+`
+
+/* Pesquisa */
 
 export const PesquisaStyled = styled.div`
     display: flex;
@@ -229,7 +242,6 @@ export const PesquisaStyled = styled.div`
         }
     }
 `
-
 export const FormularioPesquisa = styled.form`
     width: 100%;
     display: flex;
@@ -297,7 +309,6 @@ export const FormularioPesquisa = styled.form`
         }
     }
 `
-
 export const ResultadoPesquisa = styled.div`
     width: 50%;
     display: flex;
@@ -337,16 +348,96 @@ export const ResultadoPesquisa = styled.div`
         }
     }
 `
-export const SectionAgendamentoPerfil = styled.section`
-    display: flex;
-    flex-direction: column;
-    background-color: #17d19c;
-    justify-content: center;
-    align-items: center;
 
-    .boxfilho{
-        background-color: #fff;
-    }
-
+/* Home */
+export const Container = styled.div`
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
 `
 
+export const TituloHome = styled.h1`
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+
+    @media only screen and (max-width: 660px){
+        font-size: 30px
+    }
+`
+
+export const SubtituloHome = styled.h3`
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    font-weight: bold;
+`
+
+export const TextoHome = styled.p`
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 80px 20px 40px 20px;
+
+    @media only screen and (max-width: 660px){
+        font-size: 16px;
+        padding: 80px 40px;
+    }
+`
+
+export const IntroducaoBg = styled.div`
+    width: 100%;
+    height: 514px;
+    background: url("home-bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+`
+
+export const Titulo = styled.h1`
+    font-size: 48px;
+    color: #484B4D;
+    font-weight: bold;
+`
+export const SubContainer = styled.div`
+    text-align: center;
+    margin-bottom: 40px;
+`
+
+export const OpiniaoBlock = styled.p`
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 250px;
+    font-style: italic;
+
+    @media only screen and (max-width: 920px) {
+        padding: 0 200px;
+    }
+
+    @media only screen and (max-width: 735px) {
+        padding: 0 100px;
+    }
+`
+
+export const OpiniaoCite = styled.cite`
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: normal;
+`
+
+export const Botao = styled.div`
+    width: 120px;
+    text-align: center;
+    border: 3px solid #17d19c;
+    padding: 10px 30px; 
+    color: #17d19c;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 12px;
+`
