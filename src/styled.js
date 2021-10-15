@@ -214,19 +214,59 @@ export const SectionAgendamentoPerfil = styled.section`
     background-color: #17d19c;
     justify-content: center;
     align-items: center;
-
-    .boxfilho{
+    color: #fff;
+    
+    .box_pai{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
+        width: 1000px;
+        
+
+    }
+
+    .box_filho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: #707070; 
         background-color: #fff;
+    }
 
+    .botao{
+        border: 3px solid #17d19c;
+        padding: 10px 30px; 
+        color: #17d19c;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+
+    .titulo{
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .sub_titulo{
+        font-size: 23px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .btn-branco{
+        
     }
 
 `
