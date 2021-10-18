@@ -3,7 +3,6 @@ import AssinaturaAtalio from '../Assinatura/AssinaturaAtalio'
 import Agendamento from '../Agendamento/Agendamento.jsx'
 import FotoPerfil from '../img/pessoas/foto-perfil.jpg'
 import {ConteinerPerfil, ConteinerBio, ConteinerUsuario, SectionPerfil} from '../../styled.js'
-import AgendamentoPerfil from '../Agendamento/AgedamentoPerfil'
 
 export default function Perfil() {
     return (
@@ -29,8 +28,7 @@ export default function Perfil() {
                     </div>
                 </ConteinerBio>
             </ConteinerPerfil>
-
-            <AgendamentoPerfil/>
+            <Agendamento />
             <AssinaturaAtalio />
 
         </SectionPerfil>

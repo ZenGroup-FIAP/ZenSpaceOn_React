@@ -3,18 +3,12 @@ import { Link } from 'react-router-dom'
 import DrSergio from '../img/pessoas/doc-3.jpg'
 import DraCristina from '../img/pessoas/doc-1.jpg'
 import DraJulia from '../img/pessoas/doc-4.jpg'
-import { Botao, BotaoBranco, Container, SubContainer, CallToActionP, TituloInterno, BgVerde, FlexBoxAgendaHome, AgendaP, CallToActionPBranco } from '../../styled.js'
+import { BotaoBranco, Container, TituloInterno, BgVerde, FlexBoxAgendaHome, AgendaP, CallToActionPBranco } from '../../styled.js'
 
 
 export default function Agendamento() {
     return (
         <div>
-            <Container>
-                <SubContainer>
-                    <CallToActionP>Inicie sua experiência. Procure um profissional perfeito para você</CallToActionP>
-                    <Link to="/pesquisa"><Botao>Pesquisa</Botao></Link>
-                </SubContainer>
-            </Container>
             <BgVerde>
                 <Container>
                     <TituloInterno>Suas próximas consultas</TituloInterno>
