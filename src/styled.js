@@ -450,4 +450,82 @@ export const Botao = styled.div`
     text-transform: uppercase;
     letter-spacing: .1em;
     border-radius: 12px;
+    margin: 20px auto 40px auto;
+`
+
+export const BotaoBranco = styled.div`
+    width: 120px;
+    text-align: center;
+    border: 3px solid #FFF;
+    padding: 10px 30px; 
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 12px;
+    margin: 20px auto 40px auto;
+`
+
+export const CallToActionP = styled.p`
+    color: #484B4D;
+    font-size: 18px;
+    line-height: 24px;
+
+    @media only screen and (max-width: 660px){
+        font-size: 16px;
+        padding: 60px 40px 0px 40px;
+    }
+`
+
+export const CallToActionPBranco = styled.p`
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    @media only screen and (max-width: 660px){
+        font-size: 16px;
+        padding: 60px 40px 0px 40px;
+    }
+`
+
+export const TituloInterno = styled.h3`
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+`
+
+export const BgVerde = styled.div`
+    background-color: #17d19c;
+    width: 100%;
+    padding: 60px 0px;
+`
+
+export const FlexBoxAgendaHome = styled.div`
+    background-color: #FFF;
+    display: flex;
+    text-align: center;
+    max-width: 900px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px;
+
+    img {
+        border-radius: 100%;
+        border: solid #17d19c 3px;
+    }
+`
+
+export const AgendaP = styled.p`
+    color: #484B4D;
+    font-size: 18px;
+    line-height: 24px;
 `
