@@ -216,7 +216,17 @@ export const SectionAgendamentoPerfil = styled.section`
     align-items: center;
 
     .boxfilho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .box{
+        color: #707070; 
         background-color: #fff;
+
     }
 
 `
