@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, SubContainer, OpiniaoBlock, OpiniaoCite } from '../../styled.js'
+import { Link } from 'react-router-dom'
+import { Container, SubContainer, OpiniaoBlock, OpiniaoCite, CallToActionP, Botao } from '../../styled.js'
 
 export default function Autores() {
     return (
@@ -16,6 +17,10 @@ export default function Autores() {
                             gestão inovadora da qual fazemos parte."
                         </OpiniaoBlock>
                         <OpiniaoCite>Alexandre Dinis</OpiniaoCite>
+                    </SubContainer>
+                    <SubContainer>
+                        <CallToActionP>Inicie sua experiência. Procure um profissional perfeito para você</CallToActionP>
+                        <Link to='/pesquisa'><Botao>Pesquisa</Botao></Link>
                     </SubContainer>
                 </Container>
             </div> 
