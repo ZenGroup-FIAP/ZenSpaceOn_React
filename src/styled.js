@@ -556,6 +556,11 @@ export const QuoteBlock = styled.p`
     @media only screen and (max-width: 735px) {
         padding: 0 100px;
     }
+
+    @media only screen and (max-width: 450px){
+        font-size: 16px;
+        padding: 0px 40px 0px 40px;
+    }
 `
 
 export const QuoteCite = styled.cite`
@@ -579,4 +584,86 @@ export const BgFooter = styled.div`
     width: 100%;
     padding: 10px 0;
     text-align: center;
+`
+
+/* Sobre */
+
+export const TituloInternoPreto = styled.h3`
+    font-size: 24px;
+    line-height: 30px;
+    color: #484848;
+    font-weight: bold;
+    margin-bottom: 30px;
+`
+
+export const FlexboxSaibaMais = styled.div`
+    margin: 60px auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    img {
+        max-width: 500px;
+    }
+
+    @media only screen and (max-width: 830px){
+        flex-direction: column;
+        align-items: center;
+    }
+        
+`
+
+export const FlexSaibaMais = styled.div`
+    max-width: 400px;
+`
+
+export const SubtituloSaibaMais = styled.p`
+    color: #484B4D;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+`
+
+export const FlexValores = styled.div`
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 830px){
+        flex-direction: column;
+        align-items: center;
+    }
+`
+
+export const FlexItemValores = styled.div`
+    max-width: 300px;
+    margin: 20px;
+`
+
+export const SubtituloValores = styled.h3`
+    color: #FFF;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+`
+
+export const SobreTexto = styled.p`
+    color: #484B4D;
+    font-size: 18px;
+    line-height: 24px;
+
+    @media only screen and (max-width: 660px){
+        font-size: 16px;
+        padding: 60px 40px 0px 40px;
+    }
+`
+
+export const SobreTextoBranco = styled.p`
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: italic;
+
+    @media only screen and (max-width: 660px){
+        font-size: 16px;
+        padding: 60px 40px 0px 40px;
+    }
 `

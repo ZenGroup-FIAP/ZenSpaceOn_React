@@ -8,7 +8,7 @@ export default function Sobre() {
         <div>
             <SaibaMais/>
             <Valores/>
-            <Quote />
+            <Quote/>
         </div>
     )
 }
