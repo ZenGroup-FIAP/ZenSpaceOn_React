@@ -529,3 +529,54 @@ export const AgendaP = styled.p`
     font-size: 18px;
     line-height: 24px;
 `
+
+/* Quebra */
+
+export const QuebraBg = styled.div`
+    width: 100%;
+    height: 195px;
+    background: url("quebra-bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+`
+
+export const QuoteBlock = styled.p`
+    color: #FFF;
+    margin: 40px 0 20px 0;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 250px;
+    font-style: italic;
+
+    @media only screen and (max-width: 920px) {
+        padding: 0 200px;
+    }
+
+    @media only screen and (max-width: 735px) {
+        padding: 0 100px;
+    }
+`
+
+export const QuoteCite = styled.cite`
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: normal;
+`
+
+/* Footer */
+
+export const FooterText = styled.small`
+    color: #FFF;
+    font-size: 14px;
+    line-height: 25px;
+`
+
+export const BgFooter = styled.div`
+    background-color: #17d19c;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+`
