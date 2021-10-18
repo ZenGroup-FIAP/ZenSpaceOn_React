@@ -580,3 +580,40 @@ export const BgFooter = styled.div`
     padding: 10px 0;
     text-align: center;
 `
+
+/* Sobre */
+
+export const TituloInternoPreto = styled.h3`
+    font-size: 24px;
+    line-height: 30px;
+    color: #484848;
+    font-weight: bold;
+    margin-bottom: 30px;
+`
+
+export const FlexboxSaibaMais = styled.div`
+    margin: 60px auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    img {
+        max-width: 500px;
+    }
+
+    @media only screen and (max-width: 830px){
+        flex-direction: column;
+        align-items: center;
+    }
+        
+`
+
+export const FlexSaibaMais = styled.div`
+    max-width: 400px;
+`
+
+export const SubtituloSaibaMais = styled.p`
+    color: #484B4D;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+`
