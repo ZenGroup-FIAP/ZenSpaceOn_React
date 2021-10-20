@@ -746,11 +746,32 @@ export const AssinaturaBg = styled.div`
 `
 
 export const AssinaturaForm = styled.form`
+    margin: 60px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
+`
+
+export const FormItemFlex = styled.div`
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
 `
 
 export const FormP = styled.label`
     color: #484B4D;
     font-size: 18px;
     line-height: 24px;
+`
+
+export const FormSelect = styled.select`
+    width: 200px;
+    padding: 5px 0;
+    text-align: center;
+    margin-left: 80px;
+    border: solid #17d19c 2px;
+    border-radius: 20px;
+    -moz-appearance: none;
 `
