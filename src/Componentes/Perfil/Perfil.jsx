@@ -1,5 +1,5 @@
 import React from 'react'
-import AssinaturaAtalio from '../Assinatura/AssinaturaAtalio'
+import AssinaturaAtalho from '../Assinatura/AssinaturaAtalho'
 import Agendamento from '../Agendamento/Agendamento.jsx'
 import FotoPerfil from '../img/pessoas/foto-perfil.jpg'
 import {ConteinerPerfil, ConteinerBio, ConteinerUsuario, SectionPerfil} from '../../styled.js'
@@ -29,7 +29,7 @@ export default function Perfil() {
                 </ConteinerBio>
             </ConteinerPerfil>
             <Agendamento />
-            <AssinaturaAtalio />
+            <AssinaturaAtalho />
 
         </SectionPerfil>
     )
