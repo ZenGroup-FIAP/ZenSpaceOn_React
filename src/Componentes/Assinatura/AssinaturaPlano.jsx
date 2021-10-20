@@ -1,37 +1,36 @@
 import React from 'react'
+import { FlexBoxAssinatura, Container, ValorAssinaturaTitulo, ValorAssinaturaSubtitulo, ValorAssinaturaTexto, AssinaturaBg } from '../../styled.js'
 
 export default function AssinaturaPlano() {
     return (
         <div>
-            <div>
-                <div>
-                    <h2>R$ 100</h2>
-                </div>
-                <h3>BÁSICO</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-            </div>
+            <Container>
+                <FlexBoxAssinatura>
+                    <div>
+                        <AssinaturaBg>
+                            <ValorAssinaturaTitulo>R$ 100</ValorAssinaturaTitulo>
+                            <ValorAssinaturaSubtitulo>BÁSICO</ValorAssinaturaSubtitulo>
+                            <ValorAssinaturaTexto>Lorem ipsum dolor sit amet consectetur adipisicing elit.</ValorAssinaturaTexto>
+                        </AssinaturaBg>
+                    </div>
 
-            <div>
-                <div>
-                    <h2>R$ 150</h2>
-                </div>
-                <div>
-                    <h3>INTERMEDIÁRIO</h3>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                </div>
-            </div>
+                    <div>
+                        <AssinaturaBg>
+                            <ValorAssinaturaTitulo>R$ 150</ValorAssinaturaTitulo>
+                            <ValorAssinaturaSubtitulo>INTERMEDIÁRIO</ValorAssinaturaSubtitulo>
+                            <ValorAssinaturaTexto>Lorem ipsum dolor sit amet consectetur adipisicing elit.</ValorAssinaturaTexto>
+                        </AssinaturaBg>
+                    </div>
 
-            <div>
-                <div>
-                    <h2>R$ 200</h2>
-                </div>
-                <div>
-                    <h3>COMPLETO</h3>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                </div>  
-            
-            </div>
-            
+                    <div>
+                        <AssinaturaBg>
+                            <ValorAssinaturaTitulo>R$ 200</ValorAssinaturaTitulo>
+                            <ValorAssinaturaSubtitulo>COMPLETO</ValorAssinaturaSubtitulo>
+                            <ValorAssinaturaTexto>Lorem ipsum dolor sit amet consectetur adipisicing elit.</ValorAssinaturaTexto>
+                        </AssinaturaBg>
+                    </div>
+                </FlexBoxAssinatura>
+            </Container>
         </div>
     )
 }

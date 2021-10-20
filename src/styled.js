@@ -694,3 +694,51 @@ export const TituloInternoPerfil = styled.h3`
     margin: 60px 0 30px 0;
     text-align: center;
 `
+
+/* Assinatura */
+
+export const FlexBoxAssinatura = styled.div`
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+
+    @media only screen and (max-width: 950px){
+        flex-direction: column;
+        align-items: center;
+    }
+`
+
+export const ValorAssinaturaTitulo = styled.h1`
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+`
+
+export const ValorAssinaturaSubtitulo = styled.h2`
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+`
+
+export const ValorAssinaturaTexto = styled.p`
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    line-height: 20px;
+    text-align: center;
+`
+
+export const AssinaturaBg = styled.div`
+    max-width: 300px;
+    height: 200px;
+    background-color: #17d19c;
+    margin-top: 60px;
+    padding: 60px 0 0 0;
+    border-radius: 40px;
+`
