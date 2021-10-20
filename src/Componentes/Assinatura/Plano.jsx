@@ -1,5 +1,5 @@
 import React from 'react'
-import { TituloInternoPerfil, Container, AssinaturaForm, FormP } from '../../styled.js'
+import { TituloInternoPerfil, Container, AssinaturaForm, FormP, FormSelect, FormItemFlex } from '../../styled.js'
 
 export default function Plano() {
     return (
@@ -8,23 +8,23 @@ export default function Plano() {
                 <TituloInternoPerfil>Plano de Assinatura Atual</TituloInternoPerfil>
                 <AssinaturaForm>
                     <div>
-                        <div> 
+                        <FormItemFlex> 
                             <FormP for="planos">Plano Atual: </FormP>
-                            <select>
+                            <FormSelect>
                                 <option value="basico">Básico</option>
                                 <option value="intermediario">Intermediário</option>
                                 <option value="completo">Completo</option>
-                            </select>
-                        </div>
+                            </FormSelect>
+                        </FormItemFlex>
 
-                        <div>
+                        <FormItemFlex>
                             <FormP for="metodo">Método: </FormP>
-                            <select>
+                            <FormSelect>
                                 <option value="cartao">Cartão</option>
                                 <option value="boleto">Boleto</option>
                                 <input type="submit" value="Editar"/>
-                            </select>
-                        </div>
+                            </FormSelect>
+                        </FormItemFlex>
                     </div>
                 </AssinaturaForm>
             </Container>
