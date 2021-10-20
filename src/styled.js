@@ -279,7 +279,7 @@ export const Titulo = styled.h1`
 `
 export const SubContainer = styled.div`
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 `
 
 export const OpiniaoBlock = styled.p`
@@ -774,4 +774,55 @@ export const FormSelect = styled.select`
     border: solid #17d19c 2px;
     border-radius: 20px;
     -moz-appearance: none;
+`
+
+/*Agendamento#17d19c*/
+
+export const TituloInternoAgendamento = styled.h3`
+    font-size: 24px;
+    line-height: 30px;
+    color: #484848;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0 40px 0;
+`
+
+export const FlexBoxAgendamento = styled.div`
+    background-color: #17d19c;
+    display: flex;
+    text-align: center;
+    max-width: 900px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px;
+
+    img {
+        border-radius: 100%;
+        border: solid #FFF 3px;
+    }
+`
+
+export const AgendaPAgendamento = styled.p`
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+`
+
+export const AgendaBotaoAgendamento = styled.p`
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    border: solid 2px #FFF;
+    border-radius: 15px;
+`
+
+export const SubContainerAgendamento = styled.div`
+    text-align: center;
+    margin-bottom: 95px;
 `
