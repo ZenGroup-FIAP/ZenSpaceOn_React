@@ -1,10 +1,11 @@
 import React from 'react'
-import { FlexBoxAssinatura, Container, ValorAssinaturaTitulo, ValorAssinaturaSubtitulo, ValorAssinaturaTexto, AssinaturaBg } from '../../styled.js'
+import { FlexBoxAssinatura, Container, ValorAssinaturaTitulo, ValorAssinaturaSubtitulo, ValorAssinaturaTexto, AssinaturaBg, TituloInternoPerfil } from '../../styled.js'
 
 export default function AssinaturaPlano() {
     return (
         <div>
             <Container>
+                <TituloInternoPerfil>Planos de Assinatura Disponíveis</TituloInternoPerfil>
                 <FlexBoxAssinatura>
                     <div>
                         <AssinaturaBg>

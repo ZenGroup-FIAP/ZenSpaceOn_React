@@ -715,6 +715,7 @@ export const ValorAssinaturaTitulo = styled.h1`
     line-height: 45px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
 `
 
 export const ValorAssinaturaSubtitulo = styled.h2`
@@ -724,6 +725,7 @@ export const ValorAssinaturaSubtitulo = styled.h2`
     line-height: 30px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 10px;
 `
 
 export const ValorAssinaturaTexto = styled.p`
@@ -741,4 +743,14 @@ export const AssinaturaBg = styled.div`
     margin-top: 60px;
     padding: 60px 0 0 0;
     border-radius: 40px;
+`
+
+export const AssinaturaForm = styled.form`
+    text-align: center;
+`
+
+export const FormP = styled.label`
+    color: #484B4D;
+    font-size: 18px;
+    line-height: 24px;
 `
