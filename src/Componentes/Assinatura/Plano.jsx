@@ -1,30 +1,33 @@
 import React from 'react'
+import { TituloInternoPerfil, Container, AssinaturaForm, FormP } from '../../styled.js'
 
 export default function Plano() {
     return (
         <div>
-            <h2>Plano de assinatura</h2>
-            <form>
-                <div>
-                    <div> 
-                        <label for="planos">Plano Atual: </label>
-                        <select>
-                            <option value="basico">Básico</option>
-                            <option value="intermediario">Intermediário</option>
-                            <option value="completo">Completo</option>
-                        </select>
-                    </div>
-
+            <Container>
+                <TituloInternoPerfil>Plano de Assinatura Atual</TituloInternoPerfil>
+                <AssinaturaForm>
                     <div>
-                        <label for="metodo">Método: </label>
-                        <select>
-                            <option value="cartao">Cartão</option>
-                            <option value="boleto">Boleto</option>
-                            <input type="submit" value="Editar"/>
-                        </select>
+                        <div> 
+                            <FormP for="planos">Plano Atual: </FormP>
+                            <select>
+                                <option value="basico">Básico</option>
+                                <option value="intermediario">Intermediário</option>
+                                <option value="completo">Completo</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <FormP for="metodo">Método: </FormP>
+                            <select>
+                                <option value="cartao">Cartão</option>
+                                <option value="boleto">Boleto</option>
+                                <input type="submit" value="Editar"/>
+                            </select>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </AssinaturaForm>
+            </Container>
         </div>
     )
 }

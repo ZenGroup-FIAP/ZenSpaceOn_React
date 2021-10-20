@@ -667,3 +667,90 @@ export const SectionAgendamentoPerfil = styled.section`
     }
 
 `
+
+export const FlexBoxAssinaturaPerfil = styled.div`
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: solid #17d19c 2px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    justify-content: space-between;
+    align-items: center;
+
+
+    @media only screen and (max-width: 550px) {
+        max-width: 450px;
+        margin: 20px 20px;
+    }
+`
+
+export const TituloInternoPerfil = styled.h3`
+    font-size: 24px;
+    line-height: 30px;
+    color: #484848;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+    text-align: center;
+`
+
+/* Assinatura */
+
+export const FlexBoxAssinatura = styled.div`
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+
+    @media only screen and (max-width: 950px){
+        flex-direction: column;
+        align-items: center;
+    }
+`
+
+export const ValorAssinaturaTitulo = styled.h1`
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+`
+
+export const ValorAssinaturaSubtitulo = styled.h2`
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+`
+
+export const ValorAssinaturaTexto = styled.p`
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    line-height: 20px;
+    text-align: center;
+`
+
+export const AssinaturaBg = styled.div`
+    max-width: 300px;
+    height: 200px;
+    background-color: #17d19c;
+    margin-top: 60px;
+    padding: 60px 0 0 0;
+    border-radius: 40px;
+`
+
+export const AssinaturaForm = styled.form`
+    text-align: center;
+`
+
+export const FormP = styled.label`
+    color: #484B4D;
+    font-size: 18px;
+    line-height: 24px;
+`

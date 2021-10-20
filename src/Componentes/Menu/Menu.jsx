@@ -5,7 +5,7 @@ import Perfil from '../Perfil/Perfil'
 import Sobre from '../Sobre/Sobre'
 import Pesquisa from '../Pesquisa/Pesquisa'
 import Agendamento from '../Agendamento/Agendamento'
-import Assinatura from '../Assinatura/AssinaturaPlano'
+import Assinatura from '../Assinatura/Assinatura'
 import Logo from '../img/zenspace-logo.png'
 import { ButtonHeaderStyle, HeaderStyled } from '../../styled.js'
 
