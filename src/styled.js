@@ -406,6 +406,18 @@ export const QuebraBg = styled.div`
     background-size: cover;
     text-align: center;
     padding-top: 60px;
+
+    @media only screen and (max-width: 920px) {
+        padding-top: 40px;
+    }
+
+    @media only screen and (max-width: 735px) {
+        padding-top: 20px;
+    }
+
+    @media only screen and (max-width: 450px){
+        padding-top: 0px;
+    }
 `
 
 export const QuoteBlock = styled.p`
@@ -426,7 +438,7 @@ export const QuoteBlock = styled.p`
 
     @media only screen and (max-width: 450px){
         font-size: 16px;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 20px 0px 20px;
     }
 `
 
@@ -487,7 +499,7 @@ export const SubtituloSaibaMais = styled.p`
     color: #484B4D;
     font-size: 24px;
     line-height: 30px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 `
 
 export const FlexValores = styled.div`
@@ -519,7 +531,7 @@ export const SobreTexto = styled.p`
 
     @media only screen and (max-width: 660px){
         font-size: 16px;
-        padding: 60px 40px 0px 40px;
+        padding: 0px;
     }
 `
 
@@ -531,7 +543,7 @@ export const SobreTextoBranco = styled.p`
 
     @media only screen and (max-width: 660px){
         font-size: 16px;
-        padding: 60px 40px 0px 40px;
+        padding: 0px;
     }
 `
 
